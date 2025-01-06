@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
 </head>
-<body>
-    <form action="">
-        <fieldset >
+<body style="background-color: rgba(189,183, 107, 0.234);">
+    <form action="" style="
+            height: 100vh; 
+            width: 100% ">
+        <fieldset style="
+                    width: 50%;
+                    border: shadow 50px 5px;
+                    margin: 0 auto;
+                    padding: 50px;
+                    background-image: linear-gradient(45deg,red,powderblue,blue);
+                    border: none;
+                    box-shadow: 10px 10px 10px gray;">
             <h1 align="center">Login Form</h1>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required placeholder="Enter user name">
-            <svg
+            <svg style="position: relative; right: 25px; top:5px"
              xmlns="http://www.w3.org/2000/svg" 
              width="16" 
              height="16"
@@ -24,7 +33,7 @@
             <br><br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required placeholder="Enter password">
-            <svg 
+            <svg  style="color: gray; position :relative; right: 25px; top:5px"
             xmlns="http://www.w3.org/2000/svg" 
             width="16" 
             height="16" 
